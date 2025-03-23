@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ubuntu-service:
+    build: .
+    container_name: my-dev01
+    volumes:
+      - ./shared_folder:/shared_folder # Bind mount for your local directory
+      - ubuntu-data:/root # Named volume for persistent data
+    ports:
+      - "8888:8888" # Bind port to localhost
+    stdin_open: true
+    tty: true
+
+volumes:
+  ubuntu-data:
