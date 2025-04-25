@@ -1,10 +1,10 @@
-NY Taxi Rides Monitor
+# NY Taxi Rides Monitor
 A robust, end-to-end machine learning project for monitoring and predicting New York City taxi ride demand. This repository covers data ingestion, feature engineering, model training, inference pipelines, and interactive frontends-enabling real-time insights and analytics for NYC taxi rides.
 
-About
+# About
 NY Taxi Rides Monitor is designed to help analyze, visualize, and predict NYC taxi ride patterns using advanced data science and MLOps workflows. The project includes data pipelines, Jupyter notebooks for experimentation, model training scripts, and frontend dashboards for monitoring predictions.
 
-Features
+# Features
 Automated Data Pipelines: Fetch, process, and transform raw taxi data.
 
 Model Training & Inference: Baseline and advanced models (XGBoost, LightGBM) with retraining support.
@@ -15,8 +15,8 @@ Interactive Frontend: Dashboards for real-time monitoring and visualization.
 
 MLOps Ready: CI/CD workflows, Docker, and environment management.
 
-Directory Structure
-text
+# Directory Structure
+
 arunkarthik-periyaswamy-ny_taxi_rides_monitor/
 ├── anaconda-ubuntu/         # Docker setup for reproducible environments
 ├── data/                    # Raw data files
@@ -31,22 +31,15 @@ arunkarthik-periyaswamy-ny_taxi_rides_monitor/
 Quickstart
 Clone the repo:
 
-text
+
 git clone https://github.com/arunkarthik-periyaswamy/ny_taxi_rides_monitor.git
 cd ny_taxi_rides_monitor
 Install dependencies:
 
-text
+
 pip install -r requirements.txt
 Explore notebooks or run pipelines:
 
 Open Jupyter notebooks in the notebooks/ folder for step-by-step analysis.
 
 Use scripts in pipelines/ and src/ for automated workflows.
-
-License
-MIT License
-
-For more details, see the notebooks and src directories. Contributions welcome!
-
-Let me know if you want to add badges, screenshots, or more technical details!
